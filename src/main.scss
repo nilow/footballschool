@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+@import'scss/colors';
+@import'scss/datepicker';
+@import'scss/presence';
+@import'scss/login';
+@import'scss/confirm';
+
+html{
+	height: 100%;
+}
+body{
+	background: $bgcolor;
+	font-family: 'Lato', sans-serif;
+	height:100%;
+	.w-33{
+		width: 33.3%;
+	}
+	.tiny{
+	font-size: 11px;
+	}
+	#app{
+		height:100%;
+		& > div{
+			height: 100%
+		}
+		.imgcard{
+			border-radius: 50%;
+			border: 1px solid #eee;
+			width: 150px;
+		}
+		.userdata{
+			color:#fff;
+			svg{
+				fill:#fff;
+				margin:0px 10px;
+			}
+			button{
+				margin: 0px 0px 0px 10px
+			}
+		}
+		.srv-validation-message{
+			font-size: 12px;
+			color: #dc3545;
+			
+		}
+	}
+}

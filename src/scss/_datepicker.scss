@@ -1,0 +1,19 @@
+.birth{
+	display: flex;
+	.react-date-picker__wrapper, .react-datetime-picker__wrapper{
+		width:100%;
+		padding: .375rem .75rem;
+		border:1px solid #ced4da;
+		border-radius: .25rem;
+	}
+}
+.calendarcustom{
+	font-family: 'Lato', sans-serif;
+	border:1px solid red
+}
+
+.rte{
+	border:1px solid red;
+	position:relative;
+	z-index:0
+}
